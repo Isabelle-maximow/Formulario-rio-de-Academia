@@ -1,0 +1,47 @@
+
+body {
+  background: rgb(31,23,37);
+  background: linear-gradient(90deg, rgba(31,23,37,1) 0%, rgba(167,165,165,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+h1 {
+  font-family: "Grenze Gotisch", serif;
+}
+
+form {
+  background-color: darkgrey ;
+  margin: auto; /* define a margem automatica */
+  width: 550px;
+  padding: 40px;
+  border-radius: 10px; /* arredondar as bordas */
+}
+
+label, input, select, textarea{
+  display: block;  /*  cada elemento ocupe uma linha inteira, preenche td espaço e faz uma quebra de linha */
+  width: 95%;   /* largura */
+  padding: 10PX;  /*  espaçamento */
+  font-family:"Abel", serif;
+  border-radius: 10px;
+  margin-bottom: 10px;  /* espaço inferior */
+}
+
+.planos {
+  display: inline; /* fica um do lado do outro (como podeos ver com os dias */
+  width:3%;
+  font-size: 16px;
+}
+
+.checkbox_termos {
+    display: inline;
+}
+
+label{
+  padding: 0%;
+  margin: 0%;
+  font-size: 19px;
+}
+
+.peso_altura{
+  display: inline;
+  width: 34%;
+}
